@@ -137,9 +137,9 @@ There are more errors, but we will address the two for now. For both editing ste
 
 In the first step, we start by using a color picker to pick the color of the arm. Then, we roughly draw a hint (left). Next, we use a mask to cover the region to be edited (middle). Note that a context dot (upper right corner) is provided to enlarge the editing bounding box. The mask is directly drawn in the Web UI, and the black-and-white image is the mask exported from the Web UI. Although we decide to change the pose of the character, there is no need to change the prompt. After the generation is finished, we fix the error as expected (right). 
 
-<img src="https://github.com/user-attachments/assets/76904dce-15df-492c-b83d-f82df0dfc8d2" width=33%>
-<img src="https://github.com/user-attachments/assets/00ddb9fb-cf83-4a19-b12d-733583ba82a6" width=33%>
-<img src="https://github.com/user-attachments/assets/fbb06c3c-dfba-45d3-8bee-eae3a598b875" width=33%>
+<img src="https://github.com/user-attachments/assets/76904dce-15df-492c-b83d-f82df0dfc8d2" width=32%>
+<img src="https://github.com/user-attachments/assets/00ddb9fb-cf83-4a19-b12d-733583ba82a6" width=32%>
+<img src="https://github.com/user-attachments/assets/fbb06c3c-dfba-45d3-8bee-eae3a598b875" width=32%>
 
 We now move to the second step. Again, we pick color from the surrounding regions. This time, we want the headwear to be consistent with the one appeared in Touhou Juuouen. 
 
@@ -147,9 +147,9 @@ We now move to the second step. Again, we pick color from the surrounding region
 
 It would be hard to use a prompt to specify the exact color and shape we want. However, we can get the exact color and shape with SPICE. Again, we first pick surrounding colors and roughly draw the shape we want (left). Then, we use a mask to cover the region that we want to edit (middle). After one step, we get the accurate edited result (right).
 
-<img src="https://github.com/user-attachments/assets/0809d82d-0162-456e-9e6c-9c1950ad501b" width=33%>
-<img src="https://github.com/user-attachments/assets/bc229230-7009-4a04-85e7-1aa19b5cb3e4" width=33%>
-<img src="https://github.com/user-attachments/assets/bf7261fe-5168-4d07-bb86-79f15dc98fcd" width=33%>
+<img src="https://github.com/user-attachments/assets/0809d82d-0162-456e-9e6c-9c1950ad501b" width=32%>
+<img src="https://github.com/user-attachments/assets/bc229230-7009-4a04-85e7-1aa19b5cb3e4" width=32%>
+<img src="https://github.com/user-attachments/assets/bf7261fe-5168-4d07-bb86-79f15dc98fcd" width=32%>
 
 Feel free to experiment with different hyperparameters and different levels of details for the color hint you provide. While we only show two example steps, all errors on this image can be similarly fixed. 
 
