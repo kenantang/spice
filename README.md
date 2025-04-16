@@ -1,4 +1,4 @@
-SPICE: A Synergistic, Precise, Iterative, and Customizable Image Editing Workflow
+# SPICE: A Synergistic, Precise, Iterative, and Customizable Image Editing Workflow
 
 [[Paper]](https://arxiv.org/abs/2504.09697)[[Website]](https://kenantang.github.io/spice/)
 
