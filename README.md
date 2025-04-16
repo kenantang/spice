@@ -1,6 +1,6 @@
 SPICE: A Synergistic, Precise, Iterative, and Customizable Image Editing Workflow
 
-[[Paper]](www.google.com)[[Website]](www.google.com)
+[[Paper]](https://arxiv.org/abs/2504.09697)[[Website]](https://kenantang.github.io/spice/)
 
 ## Introduction
 
@@ -155,4 +155,14 @@ Feel free to experiment with different hyperparameters and different levels of d
 
 ## Citation
 
-TBA
+```
+@misc{tang2025spicesynergisticpreciseiterative,
+      title={SPICE: A Synergistic, Precise, Iterative, and Customizable Image Editing Workflow}, 
+      author={Kenan Tang and Yanhong Li and Yao Qin},
+      year={2025},
+      eprint={2504.09697},
+      archivePrefix={arXiv},
+      primaryClass={cs.GR},
+      url={https://arxiv.org/abs/2504.09697}, 
+}
+```
