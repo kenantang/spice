@@ -151,7 +151,13 @@ It would be hard to use a prompt to specify the exact color and shape we want. H
 <img src="https://github.com/user-attachments/assets/bc229230-7009-4a04-85e7-1aa19b5cb3e4" width=32%>
 <img src="https://github.com/user-attachments/assets/bf7261fe-5168-4d07-bb86-79f15dc98fcd" width=32%>
 
-Feel free to experiment with different hyperparameters and different levels of details for the color hint you provide. While we only show two example steps, all errors on this image can be similarly fixed. 
+Feel free to experiment with different hyperparameters and different levels of details for the color hint you provide. While we only show two example steps, all errors on this image can be similarly fixed.
+
+Here is another example. The character is Chirizuka Ubame from [Touhou Kinjoukyou](https://store.steampowered.com/app/3671710/Touhou_Kinjoukyou__Fossilized_Wonders/).
+
+
+https://github.com/user-attachments/assets/4ba5995c-7935-4eec-903e-f4083d732349
+
 
 ## Citation
 
