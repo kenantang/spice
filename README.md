@@ -1,5 +1,7 @@
 # SPICE: A Synergistic, Precise, Iterative, and Customizable Image Editing Workflow
 
+[09.28.2025] The paper has been accepted to [NeurIPS Creative AI Track 2025](https://neurips.cc/Conferences/2025/CallForCreativeAI). This page will be further updated soon.
+
 [[Paper]](https://arxiv.org/abs/2504.09697)[[Website]](https://kenantang.github.io/spice/)
 
 ## Introduction
