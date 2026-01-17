@@ -1,6 +1,8 @@
 # SPICE: A Synergistic, Precise, Iterative, and Customizable Image Editing Workflow
 
-[09.28.2025] The paper has been accepted to [NeurIPS Creative AI Track 2025](https://neurips.cc/Conferences/2025/CallForCreativeAI). This page will be further updated soon.
+[01.16.2026] SPICE now supports Qwen Image (the [August 2025 version](https://huggingface.co/Qwen/Qwen-Image)). You can follow the instructions in the workflow to download all required models. The missing ComfyUI custom nodes can be automatically updated via the ComfyUI manager.
+
+[09.28.2025] The paper has been accepted to [NeurIPS Creative AI Track 2025](https://neurips.cc/Conferences/2025/CallForCreativeAI) and [1st Workshop on GenProCC, NeurIPS 2025](https://genprocc.github.io/) (non-archival). Also check out our artwork made by SPICE at the [CVPR AI Art Gallery 2025](https://thecvf-art.com/project/compositionality-and-parts/)!
 
 [[Paper]](https://arxiv.org/abs/2504.09697)[[Website]](https://kenantang.github.io/spice/)
 
@@ -89,7 +91,7 @@ If you are using SD 1.5, SDXL, or any checkpoints derived from these two models,
 
 If you are using Flux, we recommend using SPICE in ComfyUI. The Canny edge ControlNet is released for Flux [dev] but not Flux [schnell] by Black Forest Labs, so we currently only support SPICE on Flux [dev]. In other words, SPICE supports any checkpoints derived from Flux [dev] and any LoRAs based on Flux [dev].
 
-1. Use the following steps to install ComfyUI and the necessary nodes.
+1. Use the following steps to install ComfyUI and the necessary nodes. (**Note:** As of 01.16.2026, the following instructions are obsolete, because newer versions of ComfyUI custom nodes conflict with the older version of SPICE. If you are interested in using SPICE with Flux [dev], please do not hesitate to contact the paper authors for further instructions.)
     ```
     conda create --name comfyui python=3.12
     conda activate comfyui
