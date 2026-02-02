@@ -1,10 +1,14 @@
 # SPICE: A Synergistic, Precise, Iterative, and Customizable Image Editing Workflow
 
+[[Paper]](https://arxiv.org/abs/2504.09697)[[Website]](https://kenantang.github.io/spice/)
+
+## News
+
+[02.02.2026] The Photoshop plugin version of SPICE is now available on [Adobe Marketplace](https://exchange.adobe.com/apps/cc/c09047be/spice) for free. You can also find the source code of the plugin [here](https://github.com/kenantang/spice-photoshop-plugin). During iterative editing, SPICE **guarantees zero quality degradation and zero pixel shift**, eliminating two fatal flaws of Nano Banana Pro in Photoshop.
+
 [01.16.2026] SPICE now supports Qwen Image (the [August 2025 version](https://huggingface.co/Qwen/Qwen-Image)). You can follow the instructions in the workflow to download all required models. The missing ComfyUI custom nodes can be automatically updated via the ComfyUI manager.
 
 [09.28.2025] The paper has been accepted to [NeurIPS Creative AI Track 2025](https://neurips.cc/Conferences/2025/CallForCreativeAI) and [1st Workshop on GenProCC, NeurIPS 2025](https://genprocc.github.io/) (non-archival). Also check out our artwork made by SPICE at the [CVPR AI Art Gallery 2025](https://thecvf-art.com/project/compositionality-and-parts/)!
-
-[[Paper]](https://arxiv.org/abs/2504.09697)[[Website]](https://kenantang.github.io/spice/)
 
 ## Introduction
 
