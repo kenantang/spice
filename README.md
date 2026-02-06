@@ -4,6 +4,8 @@
 
 ## News
 
+[02.06.2026] SPICE now support Z-Image Turbo. Follow [these instructions](https://docs.comfy.org/tutorials/image/z-image/z-image-turbo) to download necessary models.
+
 [02.02.2026] The Photoshop plugin version of SPICE is now available on [Adobe Marketplace](https://exchange.adobe.com/apps/cc/c09047be/spice) for free. You can also find the source code of the plugin [here](https://github.com/kenantang/spice-photoshop-plugin). During iterative editing, SPICE **guarantees zero quality degradation and zero pixel shift**, eliminating two fatal flaws of Nano Banana Pro in Photoshop.
 
 [01.16.2026] SPICE now supports Qwen Image (the [August 2025 version](https://huggingface.co/Qwen/Qwen-Image)). You can follow the instructions in the workflow to download all required models. The missing ComfyUI custom nodes can be automatically updated via the ComfyUI manager.
